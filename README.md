@@ -54,13 +54,12 @@ python3 -m tool.confusion_matrix
 ```
 
 ## LICENSE
-- Our project is released under the MIT License.
+- This work is licensed under the Apache-2.0 license.
 - Our project also involves the following assets from other research or project.
     1. [CoOp](https://github.com/KaiyangZhou/CoOp)
     2. [TipAdapter](https://github.com/gaopengcuhk/Tip-Adapter)
 
-## License and Citation
-This work is licensed under the Apache-2.0 license.
+## Citation
 ```bash
 @inproceedings{zheng2024learning,
   title={Learning to obstruct few-shot image classification over restricted classes},
