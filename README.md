@@ -38,7 +38,7 @@ bash scripts/train/sun397/tipadapter-k5.sh
 
 ### CelebA Attribute Learning
 ```bash
-bash scripts/train/celaba/ce-k5.sh
+bash scripts/train/celeba/ce-k5.sh
 ```
 
 ## Main results: Classical FSC
@@ -55,7 +55,7 @@ python3 -m tool.confusion_matrix
 
 ## LICENSE
 - This work is licensed under the Apache-2.0 license.
-- Our project also involves the following assets from other research or project.
+- Our project also involves the following assets from other research or projects.
     1. [CoOp](https://github.com/KaiyangZhou/CoOp)
     2. [TipAdapter](https://github.com/gaopengcuhk/Tip-Adapter)
 
@@ -70,4 +70,4 @@ python3 -m tool.confusion_matrix
 ```
 
 ## Contact
-Please contact Amber Yijia Zheng [zheng709@purdue.edu] or Chiao-An Yang [yang2300@purdue.edu] if you have any question.
+Please contact Amber Yijia Zheng [zheng709@purdue.edu] or Chiao-An Yang [yang2300@purdue.edu] if you have any questions.
