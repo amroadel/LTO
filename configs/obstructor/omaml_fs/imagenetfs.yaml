@@ -1,0 +1,8 @@
+TYPE: omaml_fs
+TRAINER:
+  NO_BN: True
+  MAX_EPOCH: 400
+  OPTIM:
+    LR: 0.01
+DATALOADER:
+  BATCH_SIZE_OBSTRUCT: 8

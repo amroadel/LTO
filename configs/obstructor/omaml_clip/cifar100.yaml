@@ -1,0 +1,5 @@
+TYPE: omaml_clip
+TRAINER:
+  OPTIM:
+    LR: 1.0e-6
+    LR_TOKEN_SCALE: 50.0

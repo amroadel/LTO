@@ -1,0 +1,37 @@
+{
+    "aquatic animals": [
+        "beaver", "dolphin", "otter", "seal", "whale",
+        "aquarium fish", "flatfish", "ray", "shark", "trout"
+    ],
+    "plants": [
+        "orchid", "poppy", "rose", "sunflower", "tulip",
+        "maple", "oak", "palm", "pine", "willow",
+        "apples", "mushrooms", "oranges", "pears", "sweet peppers"
+    ],
+    "household devices": [
+        "clock", "computer keyboard", "lamp", "telephone", "television",
+        "bed", "chair", "couch", "table", "wardrobe",
+        "bottles", "bowls", "cans", "cups", "plates"
+    ],
+    "insects": ["bee", "beetle", "butterfly", "caterpillar", "cockroach"],
+    "large animals": [
+        "bear", "leopard", "lion", "tiger", "wolf",
+        "camel", "cattle", "chimpanzee", "elephant", "kangaroo"
+    ],
+    "outdoor": [
+        "bridge", "castle", "house", "road", "skyscraper",
+        "cloud", "forest", "mountain", "plain", "sea"
+    ],
+    "small or medium-sized animals": [
+        "fox", "porcupine", "possum", "raccoon", "skunk",
+        "hamster", "mouse", "rabbit", "shrew", "squirrel",
+        "crocodile", "dinosaur", "lizard", "snake", "turtle"
+    ],
+    "non-insect invertebrates": ["crab", "lobster", "snail", "spider", "worm"],
+    "people": ["baby", "boy", "girl", "man", "woman"], 
+    
+    "vehicles": [
+        "bicycle", "bus", "motorcycle", "pickup truck", "train",
+        "lawn-mower", "rocket", "streetcar", "tank", "tractor"
+    ]
+}

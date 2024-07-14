@@ -1,0 +1,15 @@
+datasets
+!data/datasets
+
+__pycache__
+experiments
+experiments-backup
+outputs
+results
+
+.vscode
+
+*.pt
+*.png
+*.pdf
+*.jpg

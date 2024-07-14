@@ -1,0 +1,1 @@
+conda env export | grep -v "^prefix: " |  grep -v "^      - clip==1.0" > environment.yml

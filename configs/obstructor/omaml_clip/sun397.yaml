@@ -1,0 +1,6 @@
+TYPE: omaml_clip
+TRAINER:
+  MAX_EPOCH: 50
+  OPTIM:  
+    LR: 4.0e-6
+    LR_TOKEN_SCALE: 50.0
