@@ -64,7 +64,7 @@ This work is licensed under the Apache-2.0 license.
 ```bash
 @inproceedings{zheng2024learning,
   title={Learning to obstruct few-shot image classification over restricted classes},
-  author={Zheng, Amber Yijia* and Yang, Chiao-An* and Yeh, Raymond A Yeh},
+  author={Zheng, Amber Yijia* and Yang, Chiao-An* and Yeh, Raymond A},
   booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},
   year={2024}
 }
