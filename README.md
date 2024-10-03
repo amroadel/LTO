@@ -1,6 +1,6 @@
 # Learning to Obstruct Few-Shot Image Classification over Restricted Classes
 
-### [Project Page]() | [Paper]()
+### [Project Page]() | [Paper](https://www.arxiv.org/abs/2409.19210)
 
 This is the official implementation of our paper Learning to Obstruct Few-Shot Image Classification over Restricted Classes accepted in ECCV 2024.
 
