@@ -22,9 +22,9 @@ class DataModuleCifar100Clip(DataModuleClip):
         self.set_preprocess(preprocess)
         
         self.train = torchvision.datasets.CIFAR100(
-            self.dataset_root, train=True, transform=self.train_preprocess)
+            self.dataset_root, train=True, transform=self.train_preprocess, download=True)
         self.test = torchvision.datasets.CIFAR100(
-            self.dataset_root, train=False, transform=self.test_preprocess)
+            self.dataset_root, train=False, transform=self.test_preprocess, download=True)
  
         self.split_by_label_dict = collections.defaultdict(list)
         for i in range(len(self.train.targets)):

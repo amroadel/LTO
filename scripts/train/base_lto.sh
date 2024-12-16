@@ -12,7 +12,8 @@ k_atk=5
 
 superclass_id=$9
 
-CUDA_VISIBLE_DEVICES=${gpu_id} python3 main.py \
+# CUDA_VISIBLE_DEVICES=${gpu_id} 
+python3 main.py \
     --config-dataset configs/data/${dataset}.yaml \
     --config-learner-atk configs/learner/${atk}/atk.yaml \
     --config-obstructor configs/obstructor/${obs}/${dataset}.yaml \

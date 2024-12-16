@@ -106,7 +106,11 @@ class OmamlClip(BaseObstructor):
         loss_r = losses[mask].mean()
         unmask = torch.logical_not(mask)
         loss_o = losses[unmask].mean()
-        grad_r = torch.autograd.grad(loss_r, self.outer_params, retain_graph=True)
+        grad_r = torch.autograd.grad(loss_r, self.outer_params, retain_graph=True, create_graph=True)
+
+        grad_rr = sum(g.pow(2).sum() for g in grad_r)
+        grad_r = torch.autograd.grad(grad_rr, self.outer_params, retain_graph=True)
+
         grad_o = torch.autograd.grad(loss_o, self.outer_params, retain_graph=True)
         for param_i, (gr, go) in enumerate(zip(grad_r, grad_o)):
             gr = torch.clamp(gr, min=-self.grad_clip_max, max=self.grad_clip_max)

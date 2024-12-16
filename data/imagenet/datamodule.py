@@ -29,9 +29,9 @@ class DataModuleImageNetClip(DataModuleClip):
         self.dataset_dir = os.path.join(cfg.ROOT, 'imagenet')
 
         self.train = torchvision.datasets.ImageNet(
-            self.dataset_dir, split='train', transform=self.train_preprocess)
+            self.dataset_dir, split='train', transform=self.train_preprocess, download=True)
         self.test = torchvision.datasets.ImageNet(
-            self.dataset_dir, split='val', transform=self.test_preprocess)
+            self.dataset_dir, split='val', transform=self.test_preprocess, download=True)
         
         self.split_by_label_dict = collections.defaultdict(list)
         for i in range(len(self.train.imgs)):
